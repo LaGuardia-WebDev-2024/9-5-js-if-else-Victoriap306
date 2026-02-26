@@ -9,7 +9,13 @@ draw = function() {
 
     fill(0, 0, 0);
     textSize(20);
-    text("What kind of band never plays music?", 39, 200);
+
+    if (mousePressed) {
+        text("CHICKEN BUTT!!!", 39, 200);
+    }
+    else {
+        text("Guess what???", 39, 200);
+    }
 };
 
 /*
